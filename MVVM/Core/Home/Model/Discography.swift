@@ -1,5 +1,5 @@
 //
-//  Album.swift
+//  Discography.swift
 //  MVVM
 //
 //  Created by rodrigo camparo on 9/14/19.
@@ -8,6 +8,27 @@
 
 import Foundation
 
+struct Discography: Codable {
+    let albums: [Album]
+    let tracks: [Track]
+    
+    enum CodingKeys: String,CodingKey {
+        case albums = "Albums"
+        case tracks = "Tracks"
+    }
+}
+
+struct Track: Codable {
+    let id, name, trackArtWork, trackAlbum: String
+    let artist: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id, name
+        case trackArtWork = "track_art_work"
+        case trackAlbum = "track_album"
+        case artist
+    }
+}
 
 struct Album: Codable {
     

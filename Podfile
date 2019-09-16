@@ -8,6 +8,7 @@ target 'MVVM' do
   # Pods for MVVM
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxAlamofire'
 
   target 'MVVMTests' do
     inherit! :search_paths

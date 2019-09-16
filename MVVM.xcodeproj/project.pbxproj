@@ -14,16 +14,16 @@
 		937B64C8232D993A00325147 /* MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B64C7232D993A00325147 /* MVVMTests.swift */; };
 		937B64D3232D993A00325147 /* MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B64D2232D993A00325147 /* MVVMUITests.swift */; };
 		93A56A1D232DA02D00E13B54 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A56A1C232DA02D00E13B54 /* HomeView.xib */; };
-		93A56A23232DA26600E13B54 /* HorizontalCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A56A22232DA26600E13B54 /* HorizontalCollectionView.xib */; };
-		93A56A25232DA2A200E13B54 /* HorizontalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A24232DA2A200E13B54 /* HorizontalCollectionViewController.swift */; };
 		93A56A28232DA3D400E13B54 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A56A27232DA3D400E13B54 /* TestView.xib */; };
 		93A56A2A232DA3F500E13B54 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A29232DA3F500E13B54 /* TestView.swift */; };
-		93A56A2F232DAD0100E13B54 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A2E232DAD0100E13B54 /* Album.swift */; };
-		93A56A31232DAEFC00E13B54 /* HorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A30232DAEFC00E13B54 /* HorizontalCollectionView.swift */; };
+		93A56A2F232DAD0100E13B54 /* Discography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A2E232DAD0100E13B54 /* Discography.swift */; };
 		93A56A34232DAFB000E13B54 /* HorizontalCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A33232DAFB000E13B54 /* HorizontalCollectionCell.swift */; };
 		93A56A36232DB04500E13B54 /* HorizontalCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A56A35232DB04500E13B54 /* HorizontalCollectionCell.xib */; };
 		93A56A38232DB25100E13B54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A37232DB25100E13B54 /* HomeViewController.swift */; };
 		93A56A3A232DB81700E13B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A56A39232DB81700E13B54 /* Main.storyboard */; };
+		93A56A3E232E968B00E13B54 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A3D232E968B00E13B54 /* HomeViewModel.swift */; };
+		93A56A44232EF79400E13B54 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A43232EF79400E13B54 /* UIImageView+Extension.swift */; };
+		93A56A48232F183800E13B54 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A56A47232F183800E13B54 /* JSONParser.swift */; };
 		E0563BF569CDE5742C137CBD /* Pods_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA415F9F220D8880CDC61F00 /* Pods_MVVMTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,16 +60,16 @@
 		937B64D2232D993A00325147 /* MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUITests.swift; sourceTree = "<group>"; };
 		937B64D4232D993A00325147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A56A1C232DA02D00E13B54 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
-		93A56A22232DA26600E13B54 /* HorizontalCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionView.xib; sourceTree = "<group>"; };
-		93A56A24232DA2A200E13B54 /* HorizontalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewController.swift; sourceTree = "<group>"; };
 		93A56A27232DA3D400E13B54 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		93A56A29232DA3F500E13B54 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		93A56A2E232DAD0100E13B54 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
-		93A56A30232DAEFC00E13B54 /* HorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionView.swift; sourceTree = "<group>"; };
+		93A56A2E232DAD0100E13B54 /* Discography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discography.swift; sourceTree = "<group>"; };
 		93A56A33232DAFB000E13B54 /* HorizontalCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionCell.swift; sourceTree = "<group>"; };
 		93A56A35232DB04500E13B54 /* HorizontalCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionCell.xib; sourceTree = "<group>"; };
 		93A56A37232DB25100E13B54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		93A56A39232DB81700E13B54 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93A56A3D232E968B00E13B54 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		93A56A43232EF79400E13B54 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		93A56A47232F183800E13B54 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		9B8140F26A2D6455D802EAB0 /* Pods_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E7067122D57B69FAA5583F /* Pods-MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMUITests/Pods-MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA415F9F220D8880CDC61F00 /* Pods_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +153,7 @@
 		937B64B1232D993900325147 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				93A56A3F232EBA2500E13B54 /* Utils */,
 				93A56A1F232DA22900E13B54 /* Resources */,
 				93A56A1A232DA01900E13B54 /* Core */,
 				937B64B2232D993900325147 /* AppDelegate.swift */,
@@ -184,19 +185,9 @@
 		93A56A1A232DA01900E13B54 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				93A56A2C232DACF100E13B54 /* Model */,
-				93A56A2B232DACDA00E13B54 /* View */,
+				93A56A3C232E965700E13B54 /* Home */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		93A56A1B232DA01E00E13B54 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				93A56A1C232DA02D00E13B54 /* HomeView.xib */,
-				93A56A37232DB25100E13B54 /* HomeViewController.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		93A56A1F232DA22900E13B54 /* Resources */ = {
@@ -210,21 +201,10 @@
 		93A56A20232DA22F00E13B54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93A56A32232DAF7900E13B54 /* HorizontalCollectionCell */,
 				93A56A26232DA3C300E13B54 /* TestView */,
-				93A56A21232DA23500E13B54 /* HorizontalCollection */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		93A56A21232DA23500E13B54 /* HorizontalCollection */ = {
-			isa = PBXGroup;
-			children = (
-				93A56A32232DAF7900E13B54 /* HorizontalCollectionCell */,
-				93A56A22232DA26600E13B54 /* HorizontalCollectionView.xib */,
-				93A56A24232DA2A200E13B54 /* HorizontalCollectionViewController.swift */,
-				93A56A30232DAEFC00E13B54 /* HorizontalCollectionView.swift */,
-			);
-			path = HorizontalCollection;
 			sourceTree = "<group>";
 		};
 		93A56A26232DA3C300E13B54 /* TestView */ = {
@@ -239,7 +219,8 @@
 		93A56A2B232DACDA00E13B54 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				93A56A1B232DA01E00E13B54 /* Home */,
+				93A56A37232DB25100E13B54 /* HomeViewController.swift */,
+				93A56A1C232DA02D00E13B54 /* HomeView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,17 +228,9 @@
 		93A56A2C232DACF100E13B54 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				93A56A2D232DACF600E13B54 /* Home */,
+				93A56A2E232DAD0100E13B54 /* Discography.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		93A56A2D232DACF600E13B54 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				93A56A2E232DAD0100E13B54 /* Album.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		93A56A32232DAF7900E13B54 /* HorizontalCollectionCell */ = {
@@ -267,6 +240,41 @@
 				93A56A35232DB04500E13B54 /* HorizontalCollectionCell.xib */,
 			);
 			path = HorizontalCollectionCell;
+			sourceTree = "<group>";
+		};
+		93A56A3B232E963E00E13B54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				93A56A3D232E968B00E13B54 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		93A56A3C232E965700E13B54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93A56A2B232DACDA00E13B54 /* View */,
+				93A56A2C232DACF100E13B54 /* Model */,
+				93A56A3B232E963E00E13B54 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		93A56A3F232EBA2500E13B54 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				93A56A42232EF78700E13B54 /* Extensions */,
+				93A56A47232F183800E13B54 /* JSONParser.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93A56A42232EF78700E13B54 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93A56A43232EF79400E13B54 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,7 +389,6 @@
 				93A56A36232DB04500E13B54 /* HorizontalCollectionCell.xib in Resources */,
 				93A56A1D232DA02D00E13B54 /* HomeView.xib in Resources */,
 				93A56A3A232DB81700E13B54 /* Main.storyboard in Resources */,
-				93A56A23232DA26600E13B54 /* HorizontalCollectionView.xib in Resources */,
 				937B64BA232D993A00325147 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +419,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM/Pods-MVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -420,6 +429,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -502,13 +513,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A56A31232DAEFC00E13B54 /* HorizontalCollectionView.swift in Sources */,
 				93A56A2A232DA3F500E13B54 /* TestView.swift in Sources */,
 				93A56A34232DAFB000E13B54 /* HorizontalCollectionCell.swift in Sources */,
+				93A56A48232F183800E13B54 /* JSONParser.swift in Sources */,
+				93A56A44232EF79400E13B54 /* UIImageView+Extension.swift in Sources */,
+				93A56A3E232E968B00E13B54 /* HomeViewModel.swift in Sources */,
 				93A56A38232DB25100E13B54 /* HomeViewController.swift in Sources */,
 				937B64B3232D993900325147 /* AppDelegate.swift in Sources */,
-				93A56A25232DA2A200E13B54 /* HorizontalCollectionViewController.swift in Sources */,
-				93A56A2F232DAD0100E13B54 /* Album.swift in Sources */,
+				93A56A2F232DAD0100E13B54 /* Discography.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

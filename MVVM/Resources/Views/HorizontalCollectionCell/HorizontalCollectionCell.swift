@@ -38,13 +38,13 @@ class HorizontalCollectionCell: UICollectionViewCell {
     }()
     public var album: Album! {
         didSet {
-            //self.albumImage.loadImage(fromURL: album.albumArtWork)
+            self.image.loadImage(fromURL: album.albumArtWork)
             self.subtitle.text = ""
             self.title.text = album.name
         }
     }
     private func backViewGenrator(){
-        //backView.loadImage(fromURL: album.albumArtWork)
+        backView.loadImage(fromURL: album.albumArtWork)
     }
     override func prepareForReuse() {
         image.image = UIImage()
